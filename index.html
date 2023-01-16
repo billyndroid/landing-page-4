@@ -7,12 +7,13 @@
     <link href="/styles/style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Gruppo&family=Major+Mono+Display&family=Poppins:wght@100;300&family=Vollkorn+SC&display=swap" rel="stylesheet">
 
-    <title>Landing Page Example</title>
+    <title>Sliders & Image Carousels</title>
 </head>
 <body>
     <section>
         <header>
-                    <img class="logo" src="/assets/logo.png" width="100px" height="auto" alt="logo">
+            <div class="redCircle"></div>
+            <img class="logo" src="/assets/logo.png" width="100px" height="auto" alt="logo">
             <nav>
                 <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
                   </div>
@@ -27,7 +28,7 @@
                   </div>
                   
                   <div id="main">
-                    <h2>This Website is Amazing</h2>
+                    <h2>These Sliders are Various</h2>
                     <p>Welcome to our website. We're here to provide a service that is second to none. Click the hamburger above to open our menu.</p>
                     
 </div>
@@ -38,7 +39,202 @@
     </section>
     <main id="main">
 
+
+<div class="wrap">
+    <div id="arrow-left" class="arrow"></div>
+<div id="slider">
+    <div class="slide slide1">
+        <div class="slide-content">
+            <span>Image One</span>
+        </div>
+    </div>
+    <div class="slide slide2">
+        <div class="slide-content">
+            <span>Image Two</span>
+        </div>
+    </div>
+    <div class="slide slide3">
+        <div class="slide-content">
+            <span>Image Three</span>
+        </div>
+    </div>
+</div>
+    <div id="arrow-right" class="arrow"></div>
+</div>
+
+
+<h2>Automatic Slideshow</h2>
+<p>Change image every 2 seconds:</p>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="/assets/pexels-pradipna-lodh-711004.jpg" style="width:100%">
+  <div class="text">Caption Text</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="/assets/pexels-jessica-lewis-creative-633481.jpg" style="width:100%">
+  <div class="text">Caption Two</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="/assets/pexels-jessica-lewis-creative-633483.jpg" style="width:100%">
+  <div class="text">Caption Three</div>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+</div>
+
+<!--Product Slider-->
+
+<section class="product">
+    <h2 class="product-category">Best Selling</h2>
+    <button class="pre-btn"><img src="/assets/arrow.png" alt=""></button>
+    <button class="nxt-btn"><img src="/assets/arrow.png" alt=""></button>
+
+    <div class="product-container"> 
+        <!--Product Two-->  
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">50% off</span>
+                <img src="/assets/DJMavic.jpg" class="product-thumb" alt="">
+                <button class="card-btn">add to wishlist</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">DJI Mavic</h2>
+                <p class="product-short-description">a short line about the product</p>
+                <span class="price">£1491</span>
+                <span class="actual-price">£1400</span>
+
+            </div>
+        </div>
+<!--Product Two-->
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">20% off</span>
+                <img src="/assets/Larvender KF102-1.jpg" class="product-thumb" alt="">
+                <button class="card-btn">add to wishlist</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">Larvender</h2>
+                <p class="product-short-description">4K, GPS Drone with 2-Axis Gimbal Camera</p>
+                <span class="price">£375</span>
+                <span class="actual-price">£295</span>
+
+            </div>
+        </div>
+
+        <!--Product Three-->
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">30% off</span>
+                <img src="/assets/Ruko f11 1.jpg" class="product-thumb" alt="">
+                <button class="card-btn">add to wishlist</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">Ruko</h2>
+                <p class="product-short-description">4K, 9800ft 3-Axis Gimbal (2-Axis + EIS Anti-shake) Quadcopter</p>
+                <span class="price">£399</span>
+                <span class="actual-price">£349</span>
+
+            </div>
+        </div>
+
+        <!--Product Four-->
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">50% off</span>
+                <img src="/assets/drone 5.jpg" class="product-thumb" alt="">
+                <button class="card-btn">add to wishlist</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">brand</h2>
+                <p class="product-short-description">a short line about the product</p>
+                <span class="price">£375</span>
+                <span class="actual-price">£295</span>
+
+            </div>
+        </div>
+
+        <!--Product Five-->
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">50% off</span>
+                <img src="/assets/drone 2.jpg" class="product-thumb" alt="">
+                <button class="card-btn">add to wishlist</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">brand</h2>
+                <p class="product-short-description">a short line about the product</p>
+                <span class="price">£375</span>
+                <span class="actual-price">£295</span>
+
+            </div>
+        </div>
+
+        <!--Product Six-->
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">50% off</span>
+                <img src="/assets/drone 1.jpg" class="product-thumb" alt="">
+                <button class="card-btn">add to wishlist</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">brand</h2>
+                <p class="product-short-description">a short line about the product</p>
+                <span class="price">£375</span>
+                <span class="actual-price">£295</span>
+
+            </div>
+        </div>
+
+        <!--Product Seven-->
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">50% off</span>
+                <img src="/assets/drone 1.jpg" class="product-thumb" alt="">
+                <button class="card-btn">add to wishlist</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">brand</h2>
+                <p class="product-short-description">a short line about the product</p>
+                <span class="price">£375</span>
+                <span class="actual-price">£295</span>
+
+            </div>
+        </div>
+    </div>
+
+</section>
+<div id="blurb-container">
+    <h1>Different</h1>
+    <div id="blurb1">
+        
+        <h2>At our e-commerce store, you'll find the latest in cutting-edge technology, from gadgets to gizmos, all in one place. Shop our wide selection of tech products, ranging from the most up-to-date laptops, desktops, and tablets, to game consoles, phones, and more.</h2></div>
+        <div id="blurb2"><h2>We pride ourselves on being a one-stop shop for all your tech needs. With competitive prices and speedy delivery, you can rest assured that you're getting the best deal when shopping with us. We also have a knowledgeable and friendly customer service team, ready and willing to help you find the perfect product for your needs.
+        </h2>
+        </div>
+    <div id="blurb3"><h1>So, what are you waiting for? Explore our store and get the latest in tech today!</h1></div>
+    <div class="blurb-btn-container">
+        <h1></h1>
+    <button id="blurb-btn">Click for latest products</button>
+    </div>
+    </div>
+</div>
+<div class="redCircle"></div>
     </main>
     <script src="/scripts/main.js"></script>
+    <script src="/scripts/product-slider.js"></script>
+    <script src="/scripts/slider.js"></script>
 </body>
 </html>
